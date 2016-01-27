@@ -51,7 +51,7 @@ recipes.remove(<ProjRed|Exploration:projectred.exploration.peridotboots>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-recipes.removeShaped(<IC2:blockMachine2:6>); 
+//recipes.removeShaped(<IC2:blockMachine2:6>); 
 recipes.remove(<IC2:itemToolDrill:*>);
 recipes.remove(<IC2:itemToolChainsaw:*>);
 recipes.remove(<IC2:itemNanoSaber:*>);
@@ -60,12 +60,7 @@ recipes.addShaped(<IC2:itemToolChainsaw:26>, [[null, <ore:plateSteel>, <ore:plat
 recipes.addShaped(<IC2:itemNanoSaber:26>, [[<ore:dustGlowstone>, <IC2:itemPartIridium>, null], [<ore:dustGlowstone>, <IC2:itemPartIridium>, null], [<IC2:itemPartCarbonPlate>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartCarbonPlate>]]);
 
 
-recipes.removeShaped(<ExtraUtilities:angelRing:*>
-//recipes.removeShaped(<ExtraUtilities:angelRing:3>, [[<ore:itemLeather>, <ore:ingotGold>, <ore:itemLeather>], [<ore:ingotGold>, <ore:itemNetherStar>, <ore:ingotGold>], [<ore:ingotUnstable>, <ore:ingotGold>, <ExtraUtilities:unstableingot>]]);
-//recipes.removeShaped(<ExtraUtilities:angelRing:2>, [[<minecraft:dye:5>, <ore:ingotGold>, <minecraft:dye:9>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <ore:ingotGold>], [<ore:ingotUnstable>, <ore:ingotGold>, <ore:ingotUnstable>]]);
-//recipes.removeShaped(<ExtraUtilities:angelRing:4>, [[<minecraft:gold_nugget>, <ore:ingotGold>, <minecraft:gold_nugget>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <ore:ingotGold>], [<ore:ingotUnstable>, <ore:ingotGold>, <ore:ingotUnstable>]]);
-//recipes.removeShaped(<ExtraUtilities:angelRing:1>, [[<minecraft:feather>, <ore:ingotGold>, <minecraft:feather>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <ore:ingotGold>], [<ore:ingotUnstable>, <ore:ingotGold>, <ore:ingotUnstable>]]);
-//recipes.removeShaped(<ExtraUtilities:angelRing>, [[<minecraft:glass>, <minecraft:gold_ingot>, <minecraft:glass>], [<ore:ingotGold>, <ore:itemNetherStar>, <ore:ingotGold>], [<ore:ingotUnstable>, <ore:ingotGold>, <ore:ingotUnstable>]]);
+recipes.remove(<ExtraUtilities:angelRing:*>);
 
 // ================================================================================
 //#MARKER ADD

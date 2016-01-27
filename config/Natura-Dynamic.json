@@ -12,6 +12,9 @@
     },
     "Natura MFR Compatibility": {
       "enabled": true
+    },
+    "Natura BuildCraft Compatibility": {
+      "enabled": true
     }
   }
 }
